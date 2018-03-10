@@ -1,7 +1,7 @@
-class Sentence {
-  const Extract = require('./extract.js').Extract;
-  const Roll = require('./roll.js').Roll;
+const Extract = require('./extract.js').Extract;
+const Roll = require('./roll.js').Roll;
 
+class Sentence {
   constructor(inputString) {
     this.inputString = inputString;
   }
