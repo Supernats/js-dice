@@ -1,5 +1,5 @@
-const Extract = require('extract').Extract;
-const Roll = require('roll').Roll;
+const Extract = require('./src/extract.js').Extract;
+const Roll = require('./src/roll.js').Roll;
 
 class Sentence {
   constructor(inputString) {
