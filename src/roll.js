@@ -1,6 +1,6 @@
-const Value = require('./value.js').Value;
-
 class Roll {
+  const Value = require('./value.js').Value;
+
   constructor(commandString) {
     this.commandString = commandString;
   }

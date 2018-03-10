@@ -1,6 +1,6 @@
 {
   "name": "@supernats/js-dice",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Get dice in your JS",
   "main": "index.js",
   "repository": {
