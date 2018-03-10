@@ -1,4 +1,4 @@
-const Value = require('./src/value.js').Value;
+const Value = require('./value.js').Value;
 
 class Roll {
   constructor(commandString) {
