@@ -1,0 +1,25 @@
+{
+  "name": "@supernats/js-dice",
+  "version": "1.0.0",
+  "description": "Get dice in your JS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Supernats/js-dice.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">= 6.10"
+  },
+  "author": "Nathan Seither",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Supernats/js-dice/issues"
+  },
+  "homepage": "https://github.com/Supernats/js-dice#readme",
+  "devDependencies": {
+    "jest": "^22.4.2"
+  }
+}
