@@ -4,13 +4,13 @@ class Extract {
   }
 
   static commandString(inputString) {
-    return new Extract(inputString).commandString;
+    return new this(inputString).commandString;
   }
 
   // I imagine most people will just use the commandString, but I found the bool
   // tester helpful in development, so I'm leaving it in for now.
   static containsCommandString(inputString) {
-    return new Extract(inputString).containsCommandString;
+    return new this(inputString).containsCommandString;
   }
 
   static get numberUnitRegex() {

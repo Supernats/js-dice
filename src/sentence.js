@@ -7,7 +7,7 @@ class Sentence {
   }
 
   static toNumber(inputString) {
-    return new Sentence(inputString).toNumber;
+    return new this(inputString).toNumber;
   }
 
   get toNumber() {

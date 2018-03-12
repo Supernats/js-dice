@@ -6,7 +6,7 @@ class Roll {
   }
 
   static sum(commandString) {
-    return new Roll(commandString).sum;
+    return new this(commandString).sum;
   }
 
   get numericals() {

@@ -4,7 +4,7 @@ class Value {
   }
 
   static toNumber(valueString) {
-    return new Value(valueString).toNumber;
+    return new this(valueString).toNumber;
   }
 
   get toNumber() {
