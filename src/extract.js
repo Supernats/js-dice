@@ -17,12 +17,20 @@ class Extract {
     return RegExp(/((\d+d\d+)|(\d+)|(d\d+))/);
   }
 
+  get numberUnitRegex() {
+    return Object.getPrototypeOf(this).constructor.numberUnitRegex;
+  }
+
   static get mathUnitRegex() {
     return RegExp(/((\d+d\d+)|(\d+)|(d\d+)|(\+)|(-))/);
   }
 
+  get mathUnitRegex() {
+    return Object.getPrototypeOf(this).constructor.mathUnitRegex;
+  }
+
   get containsCommandString() {
-    return Extract.numberUnitRegex.test(this.inputString);
+    return this.numberUnitRegex.test(this.inputString);
   }
 
   get commandString() {
@@ -32,7 +40,7 @@ class Extract {
 
     return this.inputString
       .split(RegExp(/ /))
-      .filter((el) => Extract.mathUnitRegex.test(el))
+      .filter((el) => this.mathUnitRegex.test(el))
       .join('');
   }
 }
